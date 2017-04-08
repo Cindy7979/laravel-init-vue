@@ -1,0 +1,219 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:100,300,400,600);
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+        display: block;
+}
+body {
+        line-height: 1;
+        font-family:Raleway,sans-serif;
+        font-size:14px;
+        line-height:1.6;
+}
+ol, ul {
+        list-style: none;
+}
+blockquote, q {
+        quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+        content: '';
+        content: none;
+}
+table {
+        border-collapse: collapse;
+        border-spacing: 0;
+}
+
+html, body {
+	height: 100%;
+	overflow: hidden;
+}
+
+footer {
+	background-color: #ddd;
+	text-align: center;
+	padding: 20px;
+	color: #888;
+	font-weight: lighter;
+	font-size: 12px;
+	letter-spacing: 3px;
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+	z-index: 2;
+}
+
+.wraped {
+	width: 500px;
+	margin: 0px auto;
+	margin-top: 10px;
+	/* padding: 0px 50px; */
+	border-radius: 5px;
+	background-color: white;
+	overflow: hidden;
+}
+
+.background_blue {
+	background-color: #68AAC0;
+	height: 100%;
+}
+
+.background_gray {
+	background-color: #fafafa;
+	height: 100%;
+}
+
+.contents {
+	padding: 40px 30px;
+}
+
+.container h1 {
+	font-size: 50px;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	margin-top: 30px;
+}
+
+.form_head {
+	padding: 40px;
+	color: #333;
+}
+
+.form_body {
+	padding: 40px 40px 30px 40px;
+	background-color: #eee;
+}
+
+.form_head h3 {
+    font-size: 30px;
+    letter-spacing: 1px;
+    line-height: 38px;
+}
+
+.form_head h5 {
+    font-size: 15px;
+}
+
+.form_head_icon {
+	color: #ddd;
+	position: relative;
+	float: right;
+	top: -60px;
+	font-size: 60px;
+}
+
+.form_bottom {
+    background-color: #333;
+    padding: 30px 40px;
+    color: white;
+    font-weight: lighter;
+}
+
+.form_error {
+	color: red;
+	padding-left: 10px;
+}
+
+.nav_inline {
+	background-color: #68AAC0;
+	padding: 10px 30px;
+	overflow: hidden;
+	color: white;
+	font-size: large;
+	box-shadow: 0px 2px 3px #ccc;
+	width: 100%;
+}
+
+.nav_left {
+	float: left;
+	display: inline-flex;
+	font-size: 20px;
+}
+
+.navbar_btn {
+    background: none;
+    border: none;
+}
+
+.navbar_btn .badge {
+	right: 10px;
+	top: -3px;
+	position: relative;
+	background-color: orange;
+}
+
+span.glyphicon.glyphicon-menu-hamburger {
+    width: 20px;
+}
+
+.nav_left p {
+    margin-left: 10px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.icon_right {
+	float: right;
+	position: relative;
+	top: 4px;
+}
+
+.icon_right span:nth-child(1) {
+    /* margin-right: 20px; */
+}
+
+.left_aside {
+	padding: 0px;
+	height: 100%;
+	z-index: 1;
+}
+
+.left_aside_default {
+	background-color: white;
+	box-shadow: 1px 1px 1px #ddd;
+	text-align: left;
+	float: left;
+	padding: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+.user_info {
+	width: 100%;
+	padding: 40px;
+	border-bottom: 1px dashed #eee;
+	font-size: 16px;
+}
+
+.user_detail {
+	padding: 40px;
+}
+
+.strong {
+	font-weight: bold;
+}
